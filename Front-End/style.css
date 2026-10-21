@@ -1,13 +1,26 @@
 body{
     background-color: rgb(66, 189, 66);
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 main{
-    border: 10px;
-    border-radius: 10px;
-    border-color: aqua;
+    border: 10px solid;
+    border-radius: 750px;
+    border-color: rgb(65, 139, 4);
     background-color: rgb(1, 117, 1);
     text-align: center;
     height: 200px;
+    width: 1500px;
+    margin-top: 300px;
+}
+button{
+    background-color: rgb(1, 117, 1);
+    border: 3px solid;
+    border-radius: 100px;
+    border-color: rgb(65, 139, 4);
+    color: white;
+    height: 40px;
     width: 200px;
 }
